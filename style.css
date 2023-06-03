@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  
+}
+.container {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+}
+.content{
+    font-size: 32px;
+    padding-bottom: 8px;
+    font-weight: 200;
+    font-family: Raleway;
+}
+.contentbold{
+    font-size: 34px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    color: #4a4a4a;
+    
+}
+.contentdescription{
+    font-size: 14px;
+    padding-bottom: 25px;
+    text-align: center;
+    line-height: 24px;
+    color: #b4b4b4;
+}
+
+.card{
+    height: 550px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+   
+
+}
+.box1{
+    height: 100%;
+    width: 33.3333%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.boxcontent1{
+    height: 230px;
+    width: 340px;
+    border-top: 5px solid#46D2D2;
+    box-shadow: 1px 10px 20px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 25px;
+}
+.box2{
+    height: 100%;
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxcontentsplit1{
+    height: 230px;
+    width: 340px;
+    border-top: 5px solid#EC5355;
+    box-shadow: 1px 10px 20px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 25px;
+}
+.boxcontentsplit2{
+    height: 230px;
+    width: 340px;
+    border-top: 5px solid #FBAD4B;
+    box-shadow: 1px 10px 20px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 25px;
+}
+.box3{
+    height: 100%;
+    width: 33.3333%;
+    display: flex;
+    align-items: center;
+}
+.boxcontent3{
+    height: 230px;
+    width: 340px;
+    border-top: 5px solid #529DF2;
+    box-shadow: 1px 10px 20px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 25px;
+}
+.boxtitle{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.boxbody{
+    font-size: 15px;
+    color: #a5a5a5;
+}
+img{
+    height: 70px;
+    width: 70px
+}
+.images{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
+    .card{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .box1{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+    .box2{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .boxcontentsplit1{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .box3{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+   
+    
+}
+
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding: 20px;
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
+    .card{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .box1{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .box2{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .boxcontentsplit1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .boxcontentsplit2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+        height: auto;
+    }
+    .content{
+        font-size: 28px;
+    }
+    .contentbold{
+        font-size: 28px;
+    }
+    .contentdescription{
+        font-size: 17px;
+    }
+}
